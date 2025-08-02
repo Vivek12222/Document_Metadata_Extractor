@@ -20,5 +20,7 @@ This project is especially valuable for:
 
 ## 📁 Updated Project Structure
 Your project is organized like this:
+
+
 <img width="727" height="698" alt="Screenshot 2025-08-02 100505" src="https://github.com/user-attachments/assets/83f8bfad-c7c1-4ed5-b3df-12ce7e5d0de2" />
 
