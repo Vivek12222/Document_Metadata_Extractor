@@ -1,0 +1,26 @@
+Extract the following metadata from the document below:
+
+- Aggrement Value (Only numbers no need of currencies and decimals)
+- Aggrement Start Date (Ensure the Date format to be dd.mm.yyyy)
+- Aggrement End Date (Ensure the Date format to be dd.mm.yyyy)
+- Renewal Notice (Days)
+- Party One
+- Party Two
+
+
+Document:
+{document_text}
+
+Return only the metadata in valid JSON. 
+- Do NOT wrap it in triple backticks (```).
+- Do NOT explain or add any formatting.
+- Do NOT return markdown.
+- Only return a valid JSON object. Do NOT wrap it in triple backticks (```), markdown, or explain anything. Return just one JSON object, like:
+{{
+  "Aggrement Value": "...",
+  "Aggrement Start Date": "...",
+  "Aggrement End Date": "...",
+  "Renewal Notice (Days)": "...",
+  "Party One": "...",
+  "Party Two": "..."
+}}
